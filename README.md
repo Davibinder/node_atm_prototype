@@ -7,7 +7,7 @@
 #ATM Dispenser
  Written In a Node.js with prompt, colour, chai and mocha and sinon.
 
-#Features
+##Features
     - Users can..
     1. Balance
     2. Deposit
@@ -15,12 +15,12 @@
     4. Withdrawl
     5. Exit
 
-#Setup
+##Setup
 
-#Install Node.js
+###Install Node.js
   Assuming there is NODE is installed on system i.e [Node.js](http://nodejs.org)
 
-#Install Dependencies
+###Install Dependencies
   After clone and CD into directory..
   
   And do following
@@ -28,12 +28,12 @@
   ```bash
   $ npm install
   ```
-#Launch Program
+##Launch Program
   ```bash
   $ node machine.js
   ```
   
-#Tests OR use direct micros from VS IDE
+###Tests OR use direct micros from VS IDE
   ```bash
   $ mocha 
   $ mocha --grep="TEST"
