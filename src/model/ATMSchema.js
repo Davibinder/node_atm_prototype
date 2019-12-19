@@ -1,3 +1,18 @@
+/***********************************************
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+*************************************************/
+
+/**
+ * @author Davinder Singh
+ * @description prompt schema
+ */
+
 const colors = require('colors');
 
 const ATMSchema = {
@@ -5,7 +20,7 @@ const ATMSchema = {
   defaultSchema: {
     properties: {
       "default screen": {
-        description: "Welcome to \"Grazitti Interactive\" ATM dispenser.\n1 : Transactions OR Having Account\n2 : New Account\nEnter your choice : ".green,
+        description: "Welcome to \"CUI\" ATM dispenser.\n1 : Transactions OR Having Account\n2 : New Account\nEnter your choice : ".green,
         pattern: /^[12]$/,
         message: "please choose 1 for transaction or 2 for new account",
         required: true
