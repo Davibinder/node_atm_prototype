@@ -1,0 +1,28 @@
+{
+  "name": "giassignment",
+  "version": "1.0.0",
+  "description": "A ATM Despense machine prototype",
+  "main": "machine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "keywords": [
+    "ATM",
+    "Dispenser"
+  ],
+
+  "author": "Davinder Singh",
+  "license": "UNLICENSED",
+
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prompt": "^1.0.0"
+  },
+  
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0"
+  }
+}
